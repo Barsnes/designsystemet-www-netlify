@@ -10,5 +10,5 @@ export default defineConfig({
       plugins: [],
     },
   },
-  plugins: [tsconfigPaths(), envOnlyMacros(), reactRouter(), netlifyPlugin()],
+  plugins: [tsconfigPaths(), envOnlyMacros(), reactRouter(), /* netlifyPlugin() */],
 });
