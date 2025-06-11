@@ -13,10 +13,10 @@ import { normalizePath } from 'vite';
 
 const config: Config = {
   ssr: true,
-  prerender: async () => {
+/*   prerender: async () => {
     const contentPaths = getContentPathsWithLanguages();
     return ['/no/components', ...contentPaths];
-  },
+  }, */
   presets: [],
 };
 
